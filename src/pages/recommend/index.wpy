@@ -1,0 +1,30 @@
+<template lang="wxml">
+    <view class="recommend" ref="listWrap">
+        <view>
+            <view class="recommend-list">
+                <text class="recommend-list-header">热门歌单推荐</text>
+                <view>
+                    <!-- <repeat for="(item, index) in recommendList" class="list-item" :key="index">
+                        <view class="list-item-left">
+                            <image />
+                        </view>
+                        <view class="list-item-right"> -->
+                            <!-- <text class="list-item-right-header" v-html="item.creator.name"></text> -->
+                            <!-- <text class="list-item-right-desc" v-html="item.dissname"></text> -->
+                        <!-- </view>
+                    </repeat> -->
+                </view>
+            </view>
+        </view>
+    </view>
+</template>
+
+<script>
+import wepy from 'wepy'
+
+export default class recommend extends wepy.page {}
+</script>
+
+<style lang="scss">
+@import './style';
+</style>
